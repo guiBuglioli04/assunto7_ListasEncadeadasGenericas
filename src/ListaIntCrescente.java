@@ -28,6 +28,15 @@ public class ListaIntCrescente {
         }
     }
 
+    public void mostra(){
+        System.out.println("******Apresenta lista*******");
+        NO aux = lista;
+        while(aux!=null){
+            System.out.println(aux.dado+"\t");
+            aux = aux.prox;
+        }
+        System.out.println("******************");
+    }
 }
 
 
